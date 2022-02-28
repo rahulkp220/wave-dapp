@@ -1,15 +1,29 @@
-# Basic Sample Hardhat Project
+# Wave :tada: project using Hardhat and Alchemy
+Project that uses [hardhat framework](https://hardhat.org/) built for easy ethereum deployment, [alchemy](alchemyapi.io) for easy deployment and nodejs for everything else.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+The frontend uses repl.it for quick and easy react.js based UI deployment.
 
-Try running some of the following tasks:
+### run a quick blockchain test locally
+```shell
+npx hardhat run scripts/run.js --verbose
+```
 
+### deploy test locally
+```shell
+npx hardhat run scripts/deploy.js --verbose
+```
+
+### deploy over renkibey test network 
+```shell
+npx hardhat run scripts/deploy.js --network rinkeby
+```
+
+### Other helpful commands
 ```shell
 npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
 npx hardhat help
 ```
+
+### Important links
+- [Renkibey Faucet](https://faucet.rinkeby.io/) for getting test ethereum im your `metamask` account
+- [Etherscan](https://rinkeby.etherscan.io/) to verify any  transaction
