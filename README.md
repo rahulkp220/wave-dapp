@@ -3,6 +3,8 @@ Project that uses [hardhat framework](https://hardhat.org/) built for easy ether
 
 The frontend uses repl.it for quick and easy react.js based UI deployment.
 
+![wave-dapp](screenshots/wave-dapp.png)
+
 ### run a quick blockchain test locally
 ```shell
 npx hardhat run scripts/run.js --verbose
